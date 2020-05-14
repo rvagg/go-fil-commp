@@ -9,8 +9,10 @@ require (
 	github.com/filecoin-project/filecoin-ffi v0.0.0-20191219131535-bb699517a590
 	github.com/filecoin-project/go-fil-markets v0.0.0-20200118022459-68964015978c
 	github.com/filecoin-project/go-sectorbuilder v0.0.1
-	github.com/ipfs/go-cid v0.0.5 // indirect
+	github.com/ipfs/go-cid v0.0.5
+	github.com/multiformats/go-multihash v0.0.14-0.20200513002122-6f1ea18f1da5
 )
 
 replace github.com/filecoin-project/filecoin-ffi => ./extern/filecoin-ffi
+
 replace github.com/ipfs/go-cid => ../../ipfs/go-cid
